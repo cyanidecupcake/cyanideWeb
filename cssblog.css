@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* L337 CSS */
+/* marked up by spacecadet */
+/* 2012 CE */
+/* 960px WIDTH */
+
+/* peace */
+
+/* border:1px #fff solid; */
+/* Uses CSS Selectors http://rafael.adm.br/css_browser_selector/ */
+
+/*USS ENTERPRISE RESET*/
+
+html, body, div, 
+span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, 
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+border: 0;
+outline: 0;
+background: transparent;
+vertical-align: baseline;
+font-size: 100%;
+padding: 0;
+}
+/*Everything above this is a style reset*/
+/*element { rule:property; }*/
+
+
+
+/*JESS CHANGES START HERE*/
+
+
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'/> /*SETS FONT*/
+
+
+/*SET HEADER & DESCRIPTION*/
+
+/*SET HEADER, H1, and A THE SAME*/
+.Header { 
+	color:#FFFFFF;
+	font-size:100px;
+}
+
+.Header h1 {
+	color:#FFFFFF;
+	font-size:100px;
+	text-align:center;
+}
+
+
+.Header h1 a {
+	color:#FFFFFF;
+	font-size:100px;
+}
+
+
+
+ 
+.Header .description {
+	font-size:15px;
+	color:#FFFFFF;
+	text-align:center;
+	margin:-20px 0px 0px 0px;
+}
+
+
+.header-inner .Header .titlewrapper {
+	padding:0px 0px 0px 0px; /*top right bottom left*/
+	text-align:center;
+
+}
+
+
+
+
+
+/*CONTAINS BOTH MAIN BLOG & SIDEBAR*/
+.main-inner {
+	margin:-30px 0px 0px 0px;
+	margin-top:5ex; /*GIVES GAP BETWEEN BLOG & HEADER*/
+}
+
+
+/*SETS PADDING BETWEEN MAIN BLOG & SIDEBAR*/
+.fauxcolumn-right-outer .fauxcolumn-inner { 
+	margin:0px 0px 0px -10px;
+}
+
+
+
+
+
+/*SETS BORDER AROUND MAIN BLOG*/
+.main-inner .column-center-inner .section { 
+
+	/*background-color:RGBA(7, 186, 144, .5); /*07BA90*/*/
+
+	background-color:#FFFFFF;
+	border:2px #9AE3D2 dashed;
+	border-radius: 15px;
+
+	margin:0px -25px 0px 0px; *TOP RIGHT BOTTOM LEFT*/
+
+}
+
+
+.date-header span {
+	padding-left:10px;
+	margin-top:10px;
+	color:#000000;
+}
+
+.post {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+.post a:link {
+	color:black;
+}
+
+
+
+.post-body {
+	color:#000000;
+}
+
+.post-footer { 
+	border-radius: 10px;
+	background-color:#9AE3D2;
+
+}
+
+
+
+
+a:link {
+	color:#FFFFFF;
+}
+
+a:visited {
+	color:#9AE3D2;
+}
+
+a:hover {
+	color:#9AE3D2;
+
+}
+
+
+
+
+/*SETS BORDER AROUND SIDEBAR*/
+.sidebar .widget { 
+	color:#FFFFFF;
+	background-color:RGBA(7, 186, 144, .5); /*07BA90*/
+
+	border:2px #07BA90 dashed;
+	border-radius:15px;
+	padding:10px;
+
+}
+
+
+/*ALTERS HEADINGS ON SIDEBAR*/
+
+h2 {
+	color:#FFFFFF; /*nav title color*/
+}
+
+
+
+
+
+
+/*END JESS CHANGES*/
+
+
+
+
+
+Not exactly sure what this is....
+
+@font-face {
+	font-family: "Cutty";
+	src: url("./fonts/cuttyCupcakes.ttf");
+}
+
+.body {
+	/*color:#FFFFFF;
+	background-color:#9AE3D2;*/
+
+ 	background-color:#FFFFFF;
+	border:2px #07BA90 dashed;
+	border-radius:15px;
+	
+	color:#000000;
+}
+
+a:link {
+	color:
+}
+
+a:visited {
+	color:
+}
+
+a:hover {
+	color:
+}
+
+.content-inner {
+	background-color:#FFFFFF;
+}
+
+.Header h1 {
+	font:"Cutty";
+	color:#FFFFFF;
+	text-shadow:2px 2px #07BA90;
+	background-color:#9AE3D2;
+}
+
+
+	
