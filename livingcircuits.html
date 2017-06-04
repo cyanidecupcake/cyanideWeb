@@ -1,0 +1,117 @@
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="cyanide_style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript">
+			//$(document).redy(function(){
+
+			//});
+		</script>
+
+		<title>Cyanide Cupcake Design</title>
+
+		<meta name="description" content="Technology educator & artist in Wellington, NZ">
+
+	</head>
+
+	
+
+	<body>
+
+		<header>
+			<img src="images/logoLarge.png"/>
+
+		</header><!--Close Header-->
+
+
+		<div class="menu-wrap">
+			<nav class="menu">
+				<ul class="clearfix">
+					<li><a href="index.html">main</a></li>
+
+					
+					<!--EDUCATOR DROP DOWN-->
+					<li><a href="NONE">educator <span class="arrow">&#9660;</span></a>
+
+					<ul class="sub-menu">
+						<li><a href="education.html">about</a></li>
+						<li><a href="https://www.linkedin.com/in/jlweichler">linkedin</a></li>
+						<!--<li><a href="edugallery.html">gallery</a></li>-->
+						<li><a href="lessons.html">lessons</a></li>
+					</ul><!--CLOSE EDUCATOR SUB-MENU-->
+					</li><!--CLOSE EDUCATOR LIST-->
+
+
+					<!--ARTIST DROP DOWN-->
+					<li><a href="NONE">artist<span class="arrow">&#9660;</span></a>
+
+					<ul class="sub-menu">
+						<li><a href="livingcircuits.html">living circuits</a></li>
+						<li><a href="earlywork.html" >early work</a></li>
+						<li><a href="digital.html" >digital work</a></li>
+						<li><a href="free.html" >free art</a></li>
+					</ul><!--CLOSE ARTIST SUB-MENU-->
+					</li><!--CLOSE ARTIST LIST-->
+
+
+					<li><a href="press.html" >press</a></li>
+
+					<!--<li><a href="http://llamasapplepie.blogspot.com" STYLE="text-decoration:none">blog</a></li>-->
+				</ul>
+
+			</nav>
+		</div><!--CLOSE MENU-WRAP--> 
+
+
+
+<!--******************BEGIN CONTENT******************-->
+
+<main>
+<h1>conductive paintings.</h1>
+<p>Jess developed the idea of creating interactive paintings in 2014 after purchasing far too much conductive paint for a class.  With the leftovers she created her first conductive painting which depicted 2D musical instruments that could be played by the viewer through touch.</p>
+
+<p>Conductive paintings are far more than art, they also teach the basics of electricity in a tangible and fun way.</p>
+
+<h1>living circuits.</h1>
+<p>In 2015 Jess and her partner, Seth Kenlon, were awarded the S+ART Grant to create Living Circuits.  Living Circuits is an extension of the original conductive painting concept, incorporating sound, lights, motors, and sculpture.</p>
+
+<p>Living Circuits is an installation which inspires participants to explore the basics of electricity through art. Imagine a gallery full of paintings and objects that at first glance appear to be lifeless, but as humans are introduced and begin to interact with the pieces, electrical circuits are completed and the room comes to life with light and sound.</p>
+
+<p>From fake grass and robots, to giant illuminating flowers, Living Circuits is all about nature and technology and the relationship they share. Without the input of a living being, none of the circuits can work.</p>
+
+<p>This is real, living science.</p>
+
+<p>The art installation is the beginning, but it doesn't end when you leave the gallery. For teachers, there is a free <a href="http://cyanidecupcake.com/doodlingRobots_lesson.pdf">Lesson Plan</a> for in-class dicussion and activities. For coders and makers, the source files of the project (for the Raspberry Pi and Arduino) are posted in a public <a href="https://gitlab.com/makerbox/regolith">git repository</a></p>
+
+
+
+<h1>not magic.</h1>
+<p>Each conductive painting or object uses conductive paint for the contact points, a Raspberry Pi, a tiny Linux computer, to run the Python code and sometimes an Arduino as an outboard controller, and a MaKey MaKey Go to register when a circuit is complete.</p>
+
+<p>To activate a conductive painting, viewers must become a living circuit: Placing one hand on a conductive pad ("ground") while at the same time touching other parts of the painting. This completes a circuit and sends an electrical pulse to the Python programme, which activates the electrical components.</p>
+
+<br><br>
+
+<h1>credit.</h1>
+<section><p>Conductive paintings are the creation of Jess Weichler.  She designs each one from scratch then paints them on canvas using acrylic and conductive paint, tissue paper, and electric wire.</p>
+ 
+<p><a href="https://opensource.com/user_articles/15261">Seth Kenlon</a> attaches the wires to a small Linux computer or micro-controller and a MaKey MaKey board. The MaKey MaKey Go allows the painting to register each "touch" as a keypress, which Python can detect and use as a trigger for basically anything that Linux can do. The source code is usually not terribly complex; it's the same concept as writing the controls for a simple video game, so if you're interested in finding out how it all works, go read the source code! It's more readable than you might think. If you're really curious, go grab a Raspberry Pi (they're only $50 NZD) and try some hacking of your own.</p>
+
+<p>The box housing all the electronic components was imagined by Jess, then perfected by Wolf Hatch using Inkscape. The boxes were then laser cut at <a href="https://www.fablabwgtn.co.nz">Fab Lab WGTN.</a></p></section>
+
+
+</main>
+<!--*******************END CONTENT*******************-->
+
+
+
+		<footer>
+			<p>web design by Jess Weichler</br>2017</p>
+		</footer><!--Close Footer-->
+
+	</body>
+</html>
