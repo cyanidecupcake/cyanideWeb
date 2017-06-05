@@ -324,7 +324,246 @@ main li:before {
 }
 
 
+/*END MAIN TEMPLATE*/
 
+
+
+
+
+/*2 EDUCATOR > ABOUT > GALLERY*/
+.eduGallery {
+	margin-left:auto;
+	margin-right:auto; /*TOP RIGHT BOTTOM LEFT*/
+	padding:10px 10px 10px 15px;
+	width:400px;
+}
+
+/*END EDUCATOR*/
+
+
+
+
+/*2b EDUCATOR > ABOUT > GALLERY PAGES*/
+.inGallery {
+	margin:0em 10em 0em 10em; /*TOP RIGHT BOTTOM LEFT*/
+	padding:30px 10px 10px 15px;
+
+	background-color:#FFFFFF;
+	
+	color:#000000;
+
+	margin-bottom:15ex;
+}
+
+.inGallery h1{
+	font-size:20px;
+	padding-bottom:5px;
+}
+
+.inGallery a {
+	color:#07BA90;
+}
+
+
+
+
+
+.robotPhotos {
+	margin-left:auto;
+	margin-right:auto;
+	width:645px;
+}
+
+.robotPhotos img {
+	padding-right:5px;
+	padding-bottom:20px;
+}
+
+
+.robotVid {
+	display:inline-block;
+	width:100%;
+	height:300px;
+}
+
+.robotVid iframe {
+	display:inline-block;
+	height:300px;
+}
+
+.robotVid p {
+	display:inline-block;
+	width:50%;
+	vertical-align:bottom;
+	padding-left:15px;
+}
+
+
+
+
+.aniPhotos {
+	margin-left:auto;
+	margin-right:auto;
+	width:855px;
+}
+	
+
+
+/*HEAR ME*/
+.hmVid {
+	display:inline-block;
+	width:100%;
+}
+
+.hmVid iframe {
+	display:inline-block;
+
+}
+
+.hmVid p {
+	display:inline-block;
+	width:40%;
+	vertical-align:bottom;
+	padding-left:15px;
+
+}
+
+
+
+.soundPhoto {
+	display:inline-block;
+	width:100%
+}
+
+.soundPhoto p {
+	display:inline-block;
+	width:50%;
+	vertical-align:bottom;
+	padding-right:15px;
+}
+
+
+
+.interviewPhoto {
+	display:inline-block;
+	width:100%
+}
+
+.interviewPhoto p {
+	display:inline-block;
+	width:50%;
+	vertical-aligin:bottom;
+	padding-left:15px;
+	padding-bottom:40px;
+}
+
+.interviewPhoto iframe {
+	display:inline-block;
+}
+
+
+
+
+.bootCamp {
+	display:inline-block;
+	width:100%
+}
+
+.bootCamp p {
+	display:inline-block;
+	width:70%;
+	vertical-align:top;
+	padding-right:15px;
+	padding-bottom:40px;
+}
+
+.bootCamp img {
+	display:inline-block;
+}
+
+
+
+
+.timmy {
+	display:inline-block;
+	width:100%;
+}
+
+.timmy p {
+	display:inline-block;
+	width:50%;
+	vertical-align:bottom;
+	padding-left:15px;
+}
+
+.timmy iframe {
+	display:inline-block;
+}
+
+
+
+
+.most {
+	display:inline-block;
+	width:100%;
+}
+
+.most p {
+	display:inline-block;
+	width:50%;
+	vertical-align:bottom;
+	padding-left:15px;
+}
+
+
+
+.gallery a {		
+	text-decoration:none;
+	color:#FFFFFF;
+	text-shadow: 2px 1px #07BA90;
+	font-weight:bold;
+	padding:0px;	
+	
+	display:inline-block;
+	
+}
+
+
+.fish img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}	
+
+
+
+/*END EDUCATOR GALLERY PAGES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////OLD CSS///////////////*/
 
 
 /*1 ABOUT*/
