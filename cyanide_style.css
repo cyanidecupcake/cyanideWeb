@@ -272,9 +272,49 @@ main li:before {
 
 
 
+/*SIMPLE GALLERY*/
+/* In use at:
+****** bottom of LIVING CIRCUITS
+*/
+
+div.gallery {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+	padding-bottom:35px;
+
+	width:720px;
+	height:190px;
+	
+}
+
+div.gallerypic {
+	margin:5px;
+    	float: left;
+    	width: 230px;
+	height: 170px;
+}
+
+div.gallerypic:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	border-radius:25px;
+}
+
+div.gallerypic img {
+	width: 100%;
+	height: auto;
+
+	border-radius:25px;
+}
+/*END SIMPLE GALLERY*/
 
 
-/*2 EDUCATOR > ABOUT > GALLERY*/
+
+
+
+
+/*2 EDUCATOR > ABOUT */
 .eduGallery {
 	margin-left:auto;
 	margin-right:auto; /*TOP RIGHT BOTTOM LEFT*/
@@ -285,6 +325,47 @@ main li:before {
 /*END EDUCATOR*/
 
 
+
+/*2b EDUCATOR > ABOUT > PAGES*/
+.aside {
+	display:inline-block;
+	width:100%;
+	padding-top:25px;
+
+}
+
+.aside iframe {
+	display:inline-block;
+}
+
+.aside p { 
+	display:inline-block;
+	width:40%;
+	vertical-align:bottom;
+	padding:25px;
+	font-style:italic;
+	color:#5C5B5B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   ~~~~~~~~~~~~ CHECK TO SEE WHAT IS STILL USED ~~~~~~~~~~~~   */ 
 
 
 /*2b EDUCATOR > ABOUT > GALLERY PAGES*/
@@ -354,31 +435,6 @@ main li:before {
 	
 
 
-/*HEAR ME*/
-
-.aside {
-	display:inline-block;
-	width:100%;
-	padding-top:25px;
-
-}
-
-.aside iframe {
-	display:inline-block;
-}
-
-.aside p { 
-	display:inline-block;
-	width:40%;
-	vertical-align:bottom;
-	padding:25px;
-	font-style:italic;
-	color:#5C5B5B;
-}
-
-
-
-
 
 
 
@@ -407,36 +463,7 @@ main li:before {
 
 
 
-.timmy {
-	display:inline-block;
-	width:100%;
-}
 
-.timmy p {
-	display:inline-block;
-	width:50%;
-	vertical-align:bottom;
-	padding-left:15px;
-}
-
-.timmy iframe {
-	display:inline-block;
-}
-
-
-
-
-.most {
-	display:inline-block;
-	width:100%;
-}
-
-.most p {
-	display:inline-block;
-	width:50%;
-	vertical-align:bottom;
-	padding-left:15px;
-}
 
 
 
@@ -452,11 +479,6 @@ main li:before {
 }
 
 
-.fish img {
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-}	
 
 
 
@@ -464,38 +486,7 @@ main li:before {
 
 
 
-/*SIMPLE GALLERY*/
-div.gallery {
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
 
-	padding-bottom:35px;
-
-	width:720px;
-	height:190px;
-	
-}
-
-div.gallerypic {
-	margin:5px;
-    	float: left;
-    	width: 230px;
-	height: 170px;
-}
-
-div.gallerypic:hover {
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	border-radius:25px;
-}
-
-div.gallerypic img {
-	width: 100%;
-	height: auto;
-
-	border-radius:25px;
-}
-/*END SIMPLE GALLERY*/
 
 
 
