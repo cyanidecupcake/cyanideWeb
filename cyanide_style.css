@@ -91,31 +91,31 @@ credit to inspirationalpixels.com/tutorials/creating-a-dropdown-menu-with-html-c
    /* box-shadow:0px 1px 3px rgba(0,0,0,0.2); ???
     /*background: #666666;  /*#3e3436 ??? */
 }
+
  
 .menu {
-    width:100% /*   1000px;*/
-    margin:0px auto;
+	width:100% /*   1000px;*/
+	margin:0px auto;
 	padding-left:20%; /*BUG 4/6/17 I really want this centred*/
 }
  
 .menu li {
-    margin:0px;
-    list-style:none;
+	margin:0px;
+	list-style:none;
 }
  
 .menu a {
-    transition:all linear 0.15s;
-    /*color:#919191;  ??? */ 
+	transition:all linear 0.15s;
 }
  
 .menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#ffffff;
+	text-decoration:none;
+	color:#ffffff;
 }
 
 .menu .arrow {
-    font-size:11px;
-    line-height:0%;
+	font-size:11px;
+	line-height:0%;
 	padding-left:5px;
 }
 
@@ -221,13 +221,6 @@ nav ul li {
 }
 
 
-nav ul li a:link {
-	color:#07BA90;
-}
-
-nav ul li a:hover{
-	color:#ffffff;
-}*/
 
 /*END OLD NAV*/
 
@@ -277,6 +270,14 @@ main {
 
 	margin-bottom:15ex;
 }
+
+
+img.header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:35px;
+} 
 
 
 h1 {
@@ -538,6 +539,45 @@ main li:before {
 
 
 /*END EDUCATOR GALLERY PAGES*/
+
+
+
+/*SIMPLE GALLERY*/
+div.gallery {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+	padding-bottom:35px;
+
+	width:720px;
+	height:190px;
+	
+}
+
+div.gallerypic {
+	margin:5px;
+    	float: left;
+    	width: 230px;
+	height: 170px;
+}
+
+div.gallerypic:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	border-radius:25px;
+}
+
+div.gallerypic img {
+	width: 100%;
+	height: auto;
+
+	border-radius:25px;
+}
+/*END SIMPLE GALLERY*/
+
+
+
+
 
 
 
