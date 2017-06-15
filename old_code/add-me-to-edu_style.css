@@ -1,0 +1,57 @@
+/* CV */
+
+#cv {
+    width: 75%;
+    margin-left: 10%;
+}
+
+.cv_header h1 {
+    font-size: 2em;
+}
+
+.cv_header a {
+    text-decoration: none;
+}
+
+.cv_header h2 {
+    margin-top: 3ex;
+}
+
+.cv_chunk:first-of-type {
+    margin-top: 3ex;;
+}
+
+.cv_chunk ul {
+    width: 75%;
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+    margin-left: 3em;;
+}
+
+hr {
+    color: #fff;
+}
+
+.cv_chunk p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 1.5ex;
+}
+
+.cv_chunk .date {
+    float: right;
+}
+
+
+.cv_skills p:first-of-type {
+    margin-top: 2ex;
+}
+
+.cv_skills p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cv_skills {
+    margin-bottom: 3ex;
+}
