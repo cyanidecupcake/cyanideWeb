@@ -322,11 +322,21 @@ div.gallerypic img {
 	width:400px;
 }
 
+.eduGallery img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	border-radius:25px;
+}
+
+
 /*END EDUCATOR*/
 
 
 
 /*2b EDUCATOR > ABOUT > PAGES*/
+/* In use in:
+	Hear Me
+	PCA
+*/
 .aside {
 	display:inline-block;
 	width:100%;
@@ -348,101 +358,8 @@ div.gallerypic img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*   ~~~~~~~~~~~~ CHECK TO SEE WHAT IS STILL USED ~~~~~~~~~~~~   */ 
-
-
-/*2b EDUCATOR > ABOUT > GALLERY PAGES*/
-.inGallery {
-	margin:0em 10em 0em 10em; /*TOP RIGHT BOTTOM LEFT*/
-	padding:30px 10px 10px 15px;
-
-	background-color:#FFFFFF;
-	
-	color:#000000;
-
-	margin-bottom:15ex;
-}
-
-.inGallery h1{
-	font-size:20px;
-	padding-bottom:5px;
-}
-
-.inGallery a {
-	color:#07BA90;
-}
-
-
-
-
-
-.robotPhotos {
-	margin-left:auto;
-	margin-right:auto;
-	width:645px;
-}
-
-.robotPhotos img {
-	padding-right:5px;
-	padding-bottom:20px;
-}
-
-
-.robotVid {
-	display:inline-block;
-	width:100%;
-	height:300px;
-}
-
-.robotVid iframe {
-	display:inline-block;
-	height:300px;
-}
-
-.robotVid p {
-	display:inline-block;
-	width:50%;
-	vertical-align:bottom;
-	padding-left:15px;
-	font-style: italic;
-}
-
-
-
-
-.aniPhotos {
-	margin-left:auto;
-	margin-right:auto;
-	width:855px;
-}
-	
-
-
-
-
-
-
-
-
-
-
+/*2c EDUCATOR > ABOUT > PAGES > MESSY CODE*/
+/*PERSONAL*/
 .bootCamp {
 	display:inline-block;
 	width:100%
@@ -463,26 +380,30 @@ div.gallerypic img {
 
 
 
-
-
-
-
-.gallery a {		
-	text-decoration:none;
-	color:#FFFFFF;
-	text-shadow: 2px 1px #07BA90;
-	font-weight:bold;
-	padding:0px;	
-	
-	display:inline-block;
-	
+/*PCA*/
+.robotPhotos {
+	margin-left:auto;
+	margin-right:auto;
+	width:645px;
 }
 
+.robotPhotos img {
+	padding-right:5px;
+	padding-bottom:20px;
+}
+
+.aniPhotos {
+	margin-left:auto;
+	margin-right:auto;
+	width:855px;
+}
+	
 
 
 
 
-/*END EDUCATOR GALLERY PAGES*/
+
+
 
 
 
