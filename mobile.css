@@ -177,7 +177,7 @@ x 1px 0px rgba(0,0,0,0.4);
 }
  
 .sub-menu li a:hover, .sub-menu .current-item a {
-    background:#666666; /*original 3e3436*/
+    background:#949494; /*original 3e3436*/
 }
 
 
@@ -350,6 +350,7 @@ div.gallerypic img {
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:3ex;
+	width:100%;
 }
 
 .aside p { 
@@ -366,6 +367,7 @@ div.gallerypic img {
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:3ex;
+	/*width:100%;*/
 }
 
 /*2c EDUCATOR > ABOUT > PAGES > MESSY CODE*/
@@ -398,6 +400,8 @@ div.gallerypic img {
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:3ex;
+	width:100%;
+	height:auto;
 }
 
 .aniPhotos img {
@@ -405,6 +409,8 @@ div.gallerypic img {
 	margin-left:auto;
 	margin-right:auto;
 	padding-bottom:3ex;
+	width:100%;
+	height:auto;
 }
 	
 
