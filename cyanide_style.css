@@ -391,20 +391,32 @@ div.gallerypic img {
 
 /*PCA*/
 .robotPhotos {
+	/*display:block;
 	margin-left:auto;
 	margin-right:auto;
-	width:645px;
+	width:100%;*/
 }
 
 .robotPhotos img {
-	padding-right:5px;
+	/*padding-right:5px;*/
 	padding-bottom:20px;
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
 }
 
 .aniPhotos {
 	margin-left:auto;
 	margin-right:auto;
-	width:855px;
+	/*width:855px;*/
+}
+
+.aniPhotos img {
+	width:48%;
+	height:48%;
+	display:inline-block;
 }
 	
 
