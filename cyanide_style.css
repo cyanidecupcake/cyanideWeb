@@ -231,9 +231,18 @@ h1 {
 	font-weight:bold;
 }
 
+h2 {
+	padding-bottom: 15px; 
+}
+
+h3 {
+	padding-bottom: 15px; 
+}
+
 
 p {
 	padding-bottom: 15px; 
+	text-align:justify;
 }
 
 
