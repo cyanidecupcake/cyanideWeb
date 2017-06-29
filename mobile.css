@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* L337 CSS */
+/* marked up by spacecadet */
+/* 2012 CE */
+/* 960px WIDTH */
+
+/* peace */
+
+/* border:1px #fff solid; */
+/* Uses CSS Selectors http://rafael.adm.br/css_browser_selector/ */
+
+/*USS ENTERPRISE RESET*/
+
+html, body, div, 
+span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, 
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+border: 0;
+outline: 0;
+background: transparent;
+vertical-align: baseline;
+font-size: 100%;
+padding: 0;
+}
+/*Everything above this is a style reset*/
+/*element { rule:property; }*/
+
+
+
+/*TEMPLATE FEATURES*/
+
+@font-face {
+	font-family: "Cutty";
+	src: url("./fonts/cuttyCupcakes.ttf");
+	font-weight:bold;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+body {
+	color:#000000; /*BLACK*/
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+header {
+	width:100%;
+	/*margin:0 auto;
+	margin-bottom:10px;*/
+
+	font-size:100px;
+	font-family: "Cutty";
+	text-align:center;
+	color:#FFFFFF; /*WHITE*/
+
+	text-shadow: 2px 2px #07BA90; /*DARK TEAL*/	
+
+
+	background-color:#9AE3D2; /*TEAL #1BE0BC*/
+}
+
+
+header img {
+	width:35%;
+	margin-bottom:-30px;
+}
+
+
+
+
+/*______________________
+NEW NAVIGATION SET UP
+credit to inspirationalpixels.com/tutorials/creating-a-dropdown-menu-with-html-css
+------------------------*/
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+.menu-wrap {
+	width:100%;
+	text-align: center;
+}
+
+ 
+/*.menu {
+	display:inline-block;
+}*/
+ 
+.menu li {
+	margin:0px;
+	list-style:none;
+	width:100%;
+	line-height:4ex;
+}
+ 
+.menu a {
+	transition:all linear 0.15s;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+	text-decoration:none;
+	color:#ffffff;
+	width:100%;
+}
+
+.menu .arrow {
+	font-size:11px;
+	line-height:0%;
+	padding-left:5px;
+}
+
+.menu a:link {
+	text-decoration:none;
+
+}
+
+
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+    width: 100%;
+}
+ 
+.menu > ul > li > a {
+    /*padding:10px 40px;*/
+    display:block;
+    text-shadow:0p
+x 1px 0px rgba(0,0,0,0.4);
+	color:#07BA90; /*teal default*/
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#BFBFBF; /*light gray*/
+	width:100%;
+}
+
+/*----- Bottom Level -----*/
+.sub-menu {
+    width:100%; /*160 orig*/
+    /*padding:5px 0px;*/
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#BFBFBF; /*light gray*/
+}
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu li {
+    display:block;
+    font-size:15px;
+}
+ 
+.sub-menu li a {
+    /*padding:10px 30px;*/
+    display:block;
+	color:#ffffff;
+
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#666666; /*original 3e3436*/
+}
+
+
+
+
+footer {
+	display:none;
+}
+
+
+
+
+
+
+main {
+	margin:0em 1.5em 0em 1em; /*TOP RIGHT BOTTOM LEFT*/
+
+	background-color:#FFFFFF;
+	color:#000000;
+
+	margin-bottom:15ex;
+}
+
+
+img.header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:3ex;
+
+	width:100%;
+} 
+
+
+h1 {
+	padding-top: 15px;
+
+	font-size: 20px;
+	font-weight:bold;
+}
+
+h2 {
+	padding-bottom: 15px; 
+}
+
+h3 {
+	padding-bottom: 15px; 
+}
+
+
+p {
+	padding-bottom: 15px; 
+	text-align:justify;
+}
+
+
+main a:link {
+	text-decoration:none;
+	color:#07BA90;
+}
+
+
+
+section {
+	padding: 15px;
+	background-color:#E8E8E8;
+
+	font-size: 15px;
+}
+
+
+main ul {
+	padding-left:20px;
+}
+
+main ul li {
+	list-style-type:none;
+	padding-bottom:10px;
+}
+
+main li:before {
+    	content: "►";
+	font-size:12px;
+	padding-right:5px;
+	color:gray;
+}
+
+/*END TEMPLATE FEATURES*/
+
+
+
+/*SIMPLE GALLERY*/
+/* In use at:
+****** bottom of LIVING CIRCUITS
+*/
+
+div.gallery {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+	padding-bottom:35px;
+
+	/*width:720px;
+	height:190px;*/
+	width:100%;
+	height:100%;
+	
+}
+
+div.gallerypic {
+	margin:5px;
+    	display: inline-block;
+    	/*width: 230px;
+	height: 170px;*/
+	width:30%;
+}
+
+
+
+div.gallerypic img {
+	width: 100%;
+	height: auto;
+
+	border-radius:25px;
+}
+/*END SIMPLE GALLERY*/
+
+
+
+
+
+
+/*2 EDUCATOR > ABOUT */
+.eduGallery {
+	margin-left:auto;
+	margin-right:auto; /*TOP RIGHT BOTTOM LEFT*/
+	/*padding:10px 10px 10px 15px;*/
+	/*width:400px;*/
+}
+
+.eduGallery img {
+	width:95%;
+}
+
+.eduGallery img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	border-radius:25px;
+}
+
+
+/*END EDUCATOR*/
+
+
+
+/*2b EDUCATOR > ABOUT > PAGES*/
+/* In use in:
+	Hear Me
+	PCA
+*/
+.aside {
+	/*display:inline-block;
+	width:100%;
+	padding-top:25px;*/
+
+}
+
+.aside iframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3ex;
+}
+
+.aside p { 
+	/*display:inline-block;
+	width:40%;
+	vertical-align:bottom;
+	padding:25px;
+	font-style:italic;*/
+	color:#5C5B5B;
+}
+
+.aside img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3ex;
+}
+
+/*2c EDUCATOR > ABOUT > PAGES > MESSY CODE*/
+/*PERSONAL*/
+.bootCamp {
+	/*display:inline-block;*/
+	width:100%
+}
+
+.bootCamp p {
+	/*display:inline-block;
+	width:70%;
+	vertical-align:top;
+	padding-right:15px;
+	padding-bottom:40px;*/
+}
+
+.bootCamp img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3ex;
+}
+
+
+
+/*PCA*/
+.robotPhotos img {
+	display:block;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3ex;
+}
+
+.aniPhotos img {
+	display:block;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3ex;
+}
+	
+
+
