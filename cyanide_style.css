@@ -429,39 +429,6 @@ div.gallerypic img {
 ****** digital
 */
 
-* {
-    box-sizing: border-box;
-}
-
-/* The expanding image container */
-.container {
-    position: relative;
-    display: none;
-}
-
-#expandedImg {
-    width: auto; 
-    height: auto;
-    max-height: 500px;
-    padding:10px; 
-    display:block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-
-
-/* Expanding image text */
-#imgtext {
-    position: absolute; /*absolute*/
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
-
-
-
 
 
 
@@ -490,28 +457,32 @@ div.gallerypic img {
 }
 
 /* Content */
-.content {
+/*.content {
     background-color: white;
     padding: 0px;
     height: auto;
     min-height: 300px;
 }
 
-.gridwrapper p {
+/*.gallerywrapper p {
 	text-align: center;
 	padding:10px;
    	border: 1px solid #ccc;
 	border-top:none;
-}
+}*/ 
 
-.gridwrapper img {
+.gallerywrapper img {
     border: 1px solid #ccc;
+    width:300px;
 }
 
 
-.gridwrapper img:hover {
+.gallerywrapper img:hover {
     border: 2px solid #9AE3D2;
 }
+
+
+
 
 
 /* The "show" class is added to the filtered elements */
@@ -538,6 +509,10 @@ div.gallerypic img {
 	background-color: #666666;
    	color: white;
 }
+
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 900px) {

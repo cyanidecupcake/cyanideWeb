@@ -1,30 +1,25 @@
-<educa!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="cyanide_style.css">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="cyanide_style.css" />
 
-		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
-		<script type="text/javascript">
-			//$(document).redy(function(){
-
-			//});
-		</script>
-
-
-
-
-		<title>Cyanide Cupcake Design</title>
-
-		<meta name="description" content="Technology educator & artist in Wellington, NZ">
-
-	</head>
-
+	<!-- LIGHTBOX CSS -->
+	<link rel="stylesheet" href="dist/css/lightbox.css">
+	
+	
+	
 	
 
-	<body>
+	<title>Cyanide Cupcake Design</title>
+
+	<meta name="description" content="Technology educator & artist in Wellington, NZ">
+	
+	
+</head>
+<body>
 
 		<header>
 			<img src="images/logoLarge.png"/>
@@ -76,8 +71,6 @@
 <main>
 
 
-
-
 	<p style="font-size:1em;">
 	Jess has long been a lover of photography and as of more recently has begun branching out into digital drawings.  Below is a small sampling of her work.  		<br><br>
 	</p>
@@ -85,148 +78,123 @@
 
 
 
-
+		
+<!--SELECTOR BUTTONS AT TOP-->		
 	<div id="myBtnContainer">
- 		 <button class="btn active" onclick="filterSelection('all')">show all</button>
-  		<button class="btn" onclick="filterSelection('draw')">drawings</button>
+ 		 <!--<button class="btn active" onclick="filterSelection('all')">show all</button>-->
+ 		 
+  		<button class="btn active" onclick="filterSelection('draw')">drawings</button>
   		<button class="btn" onclick="filterSelection('back')">backgrounds</button>
   		<button class="btn" onclick="filterSelection('pic')">graphics</button>
 	</div><!--CLOSE BUTTON CONTAINER-->
-
-
-
-
-
-<div class="container">
-  <img id="expandedImg">
-</div>
-
-
-
-
-
-
-<!--portfolio Gallery Grid -->
-<div class="gridwrapper">
+		
+		
+		
+		
+		
+		
+		
+<!--DRAW-->
+<div class="gallerywrapper">	
 <div class="row">
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/unfinishedbusiness.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Unfinished Business <br> 2018</p>
-    </div>
-  </div>
 
 
-  <div class="column draw">
-    <div class="content">
-    	      <img src="images/digitalart/tombsday.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Tombsday <br> 2017</p>
-    </div>
-  </div>
+	<span class="column draw">	
+	<a href="images/digitalart/art_self-esteem-1.png" data-lightbox="draw" data-title="CAPTION">
+	<img src="images/digitalart/art_self-esteem-1.png" /></a>
+	</span>	
 
 
-  <div class="column draw">
-    <div class="content">
-	<img src="images/digitalart/fullmoonfollies.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Full Moon Follies <br> 2017</p>
-    </div>
-  </div>
+	<span class="column draw">	
+	<a href="images/digitalart/unfinishedbusiness.png" data-lightbox="draw" data-title="THIS WILL BE THE CAPTION">
+	<img src="images/digitalart/unfinishedbusiness.png" /></a>
+	</span>
+	
+	
+	<span class="column draw">
+	<a href="images/digitalart/tombsday.png" data-lightbox="draw" data-title="THIS WILL BE THE CAPTION">
+	<img src="images/digitalart/tombsday.png" /></a>
+	</span>
+	
+</div><!--CLOSE ROW 1-->
+<div class="row">	
+	
+	<span class="column draw">
+	<a href="images/digitalart/fullmoonfollies.png" data-lightbox="draw" data-title="THIS WILL BE THE CAPTION">
+	<img src="images/digitalart/fullmoonfollies.png" /></a>
+	</span>
+	
+	<span class="column draw">	
+	<a href="images/digitalart/ghostie.gif" data-lightbox="draw" data-title="CAPTION">
+	<img src="images/digitalart/ghostie.gif" /></a>
+	</span>
+	
+	
+	<span class="column draw">
+	<a href="images/digitalart/art_fridayfolklore.png" data-lightbox="draw" data-title="CAP">
+	<img src="images/digitalart/art_fridayfolklore.png" /></a>
+	</span>
+
+</div><!--CLOSE ROW 2-->
+<div class="row">
+
+	<span class="column draw">
+	<a href="images/digitalart/penguin.png" data-lightbox="draw" data-title="CAP">
+	<img src="images/digitalart/penguin.png" /></a>	
+	</span>
+	
+	
+	<span class="column draw">
+	<a href="images/digitalart/summonsday.png" data-lightbox="draw" data-title="CAPTION">
+	<img src="images/digitalart/summonsday.png" /></a>
+	</span>
 
 
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/art_self-esteem-1.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Self-Esteem <br> 2017</p>
-    </div>
-  </div>
+	<span class="column draw">
+	<a href="images/digitalart/cowboy.png" data-lightbox="draw" data-title="CAPTION">
+	<img src="images/digitalart/cowboy.png" /></a>
+	</span>
 
+</div><!--CLOSE ROW 3-->
+<div class="row">
 
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/ghostie.gif" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Ghostie <br> 2017</p>
- 
-    </div>
-  </div>
+	<span class="column draw">
+	<a href="images/digitalart/bunnySanta.jpg" data-lightbox="draw" data-title="CAP">
+	<img src="images/digitalart/bunnySanta.jpg" /></a>
+	</span>
+	
 
-
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/art_fridayfolklore.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Friday Folklore <br> 2017</p>
-    </div>
-  </div>
-
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/penguin.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Penguin <br> 2017</p>
-    </div>
-  </div>
-
-
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/summonsday.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Summons Day <br> 2017</p>
-    </div>
-  </div>
-
-
-
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/cowboy.png" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Cowboy <br> 2017</p>
- 
-    </div>
-  </div>
-
-
-  <div class="column draw">
-    <div class="content">
-      <img src="images/digitalart/bunnySanta.jpg" alt="Drawing" style="width:100%" onclick="myFunction(this);">
-      <p>Bunny in a Santa Hat <br> 2017</p>
-    </div>
-  </div>
-
-  <div class="column back">
-    <div class="content">
-      <img src="images/digitalart/littleboxes.jpg" alt="Background" style="width:100%" onclick="myFunction(this);">
-      <p>Little Boxes <br> 2017</p>
-    </div>
-  </div>
-
-  <div class="column back">
-    <div class="content">
-      <img src="images/digitalart/autumnLeaves.JPG" alt="Background" style="width:100%" onclick="myFunction(this);">
-      <p>Leaves on Tracks <br> 2016</p>
-    </div>
-  </div>
-
-
-  <div class="column back">
-    <div class="content">
-      <img src="images/digitalart/treeRain.JPG" alt="Background" style="width:100%" onclick="myFunction(this);">
-      <p>Peace <br> 2016</p>
-    </div>
-  </div>
-
-
-<!-- END GRID -->
-</div>
-
-
-</div><!--END GRID WRAPPER-->
+</div><!--CLOSE ROW 4-->
 
 
 
+<!--TEXTURE/BACKGROUND-->
+
+<div class="row"><!--FIRST BACK-->
+
+	<span class="column back">
+	<a href="images/digitalart/littleboxes.jpg" data-lightbox="back" data-title="CAP">
+	<img src="images/digitalart/littleboxes.jpg" /></a>	
+	</span>
 
 
+	<span class="column back">
+	<a href="images/digitalart/autumnLeaves.JPG" data-lightbox="back" data-title="CAP">
+	<img src="images/digitalart/autumnLeaves.JPG" /></a>
+	</span>
+
+	
+	
+	<span class="column back">
+	<a href="images/digitalart/treeRain.JPG" data-lightbox="back" data-title="CAP">
+	<img src="images/digitalart/treeRain.JPG" /></a>
+	</span>
 
 
+</div> <!--CLOSE BACK ROW-->
 
 
+</div> <!--CLOSE GALLERY WRAPPER-->
 
 
 
@@ -243,8 +211,24 @@
 			<p>web design by Jess Weichler</br>2017</p>
 		</footer><!--Close Footer-->
 
+
+
+
+
+
+
+
+
+<!--JAVASCRIPT FOR LIGHTBOX2-->
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+
+
+
+<!--JAVASCRIPT FOR BUTTON SELECTORS-->
+<!--CHANGE filterSelection("draw") to "all" if you want initial state to be all photos-->
 		<script>
-		filterSelection("all")
+		filterSelection("draw")
 		function filterSelection(c) {
 		  var x, i;
 		  x = document.getElementsByClassName("column");
@@ -289,17 +273,36 @@
 		}
 		</script>
 		
-		
-<script>
-function myFunction(imgs) {
-    var expandImg = document.getElementById("expandedImg");
 
-    expandImg.src = imgs.src;
 
-    expandImg.parentElement.style.display = "block";
-}
-</script>
 
-	</body>
+
+
+
+
+
+
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
